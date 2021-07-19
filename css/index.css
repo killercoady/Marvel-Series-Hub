@@ -1,3 +1,4 @@
+
 body{
     background-color: teal;
     border: 2px solid Gray;
@@ -12,10 +13,24 @@ body{
     padding-left: 24px;
     padding-right: 24px;
 }
+
+    
+
 html{
     background: radial-gradient(circle, Black, Black 50%,#ccc8c8 50%,Black);
     background-size: 8px 8px;
 }
+
+.github{
+  text-align: center;
+}
+
+
+
+
+
+
+
 
 .container1 {
     position: relative;
