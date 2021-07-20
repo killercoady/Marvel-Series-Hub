@@ -1,14 +1,23 @@
+
+
 html{
    
-    font-family: sans-serif;
-    background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(118, 197, 64));
-    
+  font-family: sans-serif;
+  background: #c2e59c;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #64b3f4, #c2e59c); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
     
 }
 
+h1{
+  
+  font-family: 'Maven Pro', sans-serif;
+}
 
-
+img.rounded{
+  border-radius: 30px;
+}
 
 
 .github{
@@ -44,17 +53,18 @@ html{
     left: 50%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
-    background-color: #555;
-    color: white;
+    background: #c2e59c;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #64b3f4, #c2e59c);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #64b3f4, #c2e59c);
     font-size: 16px;
     padding: 12px 24px;
     border: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
   }
   
   .container1 .btn1:hover {
-    background-color: black;
+    background: white;
   }
   
   

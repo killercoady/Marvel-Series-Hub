@@ -16,3 +16,5 @@ html{
     background-color: gray;
     background-size: 8px 8px;
 }
+
+a:focus{text-decoration: none; color:rgb(0, 255, 76); }
