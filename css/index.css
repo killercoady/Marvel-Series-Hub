@@ -7,11 +7,7 @@ html{
     
 }
 
-img{
-  max-width: 100%;
-  height: auto;
 
-}
 
 
 
@@ -64,6 +60,8 @@ img{
   
 @media screen and (max-width: 800px){
   .container1{
-    margin: auto;;
+    margin: auto;
+    width: 75%
   }
+  
 }
