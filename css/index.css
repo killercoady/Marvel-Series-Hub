@@ -1,22 +1,25 @@
 
-body{
+html{
    
     font-family: sans-serif;
-    height: 100px;
-    background-color: red;
-    background-image: linear-gradient(red, yellow);
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , rgb(118, 197, 64));
     
     
 }
 
-    
+img{
+  max-width: 100%;
+  height: auto;
+
+}
 
 
 
 .github{
   text-align: center;
 }
-img{ max-width: 100%;}
+
 
 
 
@@ -28,12 +31,6 @@ img{ max-width: 100%;}
 .container1 {
     position: relative;
     width: 50%;
-    margin: left;
-    @media screen and (max-width: 800px) {
-      .left, .main, .right {
-        margin: center; /* The width is 100%, when the viewport is 800px or smaller */
-      }
-    }
     
   }
   
